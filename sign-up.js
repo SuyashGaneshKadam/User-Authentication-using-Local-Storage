@@ -14,5 +14,5 @@ userInfo.innerHTML = `
 `;
 document.getElementById("logout").addEventListener("click",()=>{
     localStorage.removeItem('userData');
-    window.location.href = "/index.html"
+    window.location.href = "index.html"
 });
